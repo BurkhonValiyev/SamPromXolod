@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist (2)/bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist (2)/bootstrap-4.5.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist (2)/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img class="logo" src="Layer 1.png" alt="" height="200" width="300"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#email">E-mail</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Контакты</a>
+            </li>
+        </div>
+      </nav>
+      <div class="row">
+          <div class="col-lg-3">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. ОПИСАНИЕ РАБОТ:
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#rasxod">РАСХОДНЫЕ МАТЕРИАЛЛЫ НА 1 га ЯБЛОНЕГО САДА
+                      М9 САЖЕНЦЫ ПОСАДКА 4 х 1 МЕТР</a>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                         2. ДЕТАЛИ ПРОЕКТА КАПЕЛЬНОЕ ОРОШЕНИЕ
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#filter">Группа фильтрации...</a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. ГАЛЬВАНИЗИРОВАННЫЕ СТОЛБЫ
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#stolbi">Гальванизированные столбы...
+                        </a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4.	УСЛОВИЯ ОПЛАТЫ:
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#peredoplata">50% предоплаты, 50% перед поставкой продукции.</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5.	ОСТАВКИ:
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#peredoplata"">Материалы будут готовы транспортировке по согласованию сторон после внесения первоначального взноса перед сезоном посадки саженцев.</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6.	ГАРАНТИЯ:
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#peredoplata"">Гарантия на высокую урожайность ...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                        7.	СРОК ДЕЙСТВИЯ:
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#peredoplata"">Предложение действительно в течение 30 дней.</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEight">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseSix">
+                       8. НЕ ВХОДИТ В СТОИМОСТЬ:
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a class="box_a" href="#stoimost">Обязанности ПОКУПАТЕЛЯ не входящие в стоимость контракта...</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-9">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="DSC0462111.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="photo_2021-01-13_19-48-13.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="intensivnoe-sadovodstvo.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="1142b2c62da2a02fdb976.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+      </div>
+    </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+              <h1 class="foo_h1 col-lg-9"> <a name="rasxod"> РАСХОДНЫЕ МАТЕРИАЛЛЫ НА 1 га ЯБЛОНЕГО САДА
+                М9 САЖЕНЦЫ ПОСАДКА 4 х 1 МЕТР</a>
+                </h1>
+
+              <table class="table table-bordered">
+                <thead>
+                  <tr  class="foo_tr" >
+                    <th class="foo_th" scope="col">Наименование</th>
+                    <th scope="col">Кол-во</th>
+                    <th scope="col">Ед.из м</th>
+                    <th scope="col">ЦЕНА за ед.</th>
+                    <th scope="col">СУММА</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">САЖЕНЦЫ яблока (М9) </th>
+                    <td  class="foo_tr" >2500</td>
+                    <td  class="foo_tr" >Шт.</td>
+                    <td  class="foo_tr" >14000</td>
+                    <td  class="foo_tr" >35 000 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Капельное орошение (Гидроциклон-Автоматизированное само <br> очищающая система)</th>
+                    <td  class="foo_tr" >1</td>
+                    <td  class="foo_tr" >Га</td>
+                    <td  class="foo_tr" >15 422 400</td>
+                    <td  class="foo_tr" >15 422 400</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Металлоконструкция с сеточным покрытием</th>
+                    <td  class="foo_tr" >1</td>
+                    <td  class="foo_tr" >Га</td>
+                    <td  class="foo_tr" >50 590 100 </td>
+                    <td  class="foo_tr" >50 590 100 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">шефмонтаж системы капельного орошения, металлоконструкции, <br> сеточной завесы,  руководство по рассадке саженцев и др. расходы</th>
+                    <td  class="foo_tr" >1</td>
+                    <td  class="foo_tr" >Га</td>
+                    <td  class="foo_tr" >5 737 500</td>
+                    <td  class="foo_tr" >5 737 500</td>
+                  </tr>
+                  <thead>
+                  <tr>
+                    <th scope="row">ОБЩАЯ СУММА </th>
+                    <th></th>
+                    <th></th>
+                    <th> </th>
+                    <th>106 750 000 </th>
+                  </tr>
+                </thead>
+                </tbody>
+              </table>
+
+              <h1 class="foo_h1 col-lg-9">     Расчет урожайности интенсивного сада в тоннах
+
+              </h1>
+
+              <table class="table table-bordered">
+                <thead>
+                  <tr  class="foo_tr" >
+                    <th class="foo_th" scope="col" rowspan="2">Наименование</th>
+                    <th scope="col"colspan="2">1 год</th>
+                    <th scope="col"colspan="2">2 год</th>
+                    <th scope="col"colspan="2">3 год</th>
+                    <th scope="col"colspan="2">4 год</th>
+                  </tr>
+                  <tr  class="foo_tr" >
+                    <th scope="col">1 га</th>
+                    <th scope="col">10 га</th>
+                    <th scope="col">1 га</th>
+                    <th scope="col">10 га</th>
+                    <th scope="col">1 га</th>
+                    <th scope="col">10 га</th>
+                    <th scope="col">1 га</th>
+                    <th scope="col">10 га</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="foo_tr">
+                    <th scope="row">Яблоки</th>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td>150</td>
+                    <td>55</td>
+                    <td>550</td>
+                    <td>75</td>
+                    <td>750</td>
+                  </tr>
+                </thead>
+                </tbody>
+              </table>
+
+              <p class="foo_pr"> <span>Примечание: </span> Цифры приведенные выше приблизительные. После обработки данных метеорологии и проекта посадки окончательные и детальные цифры предоставим следующем предложении.</p>
+                <img src="Untitled-1.jpg" alt="" class="foo_pr_img" height="600" width="100%" >    
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+             <div class="block">
+          <div class="box">
+              <h1 class="foo_h1"> <a name="filter"> 2. ДЕТАЛИ ПРОЕКТА КАПЕЛЬНОЕ ОРОШЕНИЕ</a></h1>
+              <ol>
+                <li>Группа фильтрации</li>
+                <li>Линия трубопровода</li>
+                <li>Трубы РУС разных диаметров, в зависимости от проекта</li>
+                <li>Оросительные трубы, в зависимости от проекта</li>
+                <li>Металлические фитинги в зависимости от проекта</li>
+                <li>РУС фитинги в зависимости от проекта</li>
+                <li>Селеноидные клапаны в зависимости от проекта</li>
+                <li>Электрические кабеля в зависимости от проекта</li>
+                <li>Полиэтиленовые трубы в зависимости от проекта</li>
+                <li>Металлические клапаны в зависимости от проекта</li>
+                <li>Система полностью автоматизирована. <br> Само очищающая система фильтрации,
+                  включает электромагнитный клапан контролирующий дистанцию и время подачи воды. Включение и выключение мотора производится с пульта управления без обхождения ручного воздействия.
+                  </li>
+                <li>Эти данные проекта рассчитаны для ровной поверхности земельного участка.</li>
+              </ol>
+          </div>
+          <div class="box">
+              <img class="foo_img1" src="Untitled-2.jpg" alt="">
+            
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="block_1">
+            <img class="foo_img" src="Untitled-3.jpg" alt="">
+            <img class="foo_img" src="Untitled-4.jpg" alt=""></div>
+            
+          </div>
+        </div>
+        <div class="container">
+            <h1 class="foo_h1"> <a name="stolbi"> 3. ГАЛЬВАНИЗИРОВАННЫЕ СТОЛБЫ</a></h1>
+            <ol>
+              <li>Гальванизированные столбы</li>
+              <li>Эти гальванизированные столбы шестигранной формы. Используются 2 типа столбов, которые делятся на начальные и средние.</li>
+            </ol>
+            <img class="box_img" src="Untitled-5.jpg" alt="">
+
+            <h1 class="foo_h1">ЗАЩИТНАЯ СЕТКА</h1>
+            <ol>
+              <li>Защитная сетка в зависимости от проекта</li>
+            </ol>
+            <img class="box_img" src="Untitled-6.jpg" alt="">
+
+            <div class="box_h3"><h3 > <a name="peredoplata">4.	УСЛОВИЯ ОПЛАТЫ:</a> </h3>
+            <p>50% предоплаты, 50% перед поставкой продукции.</p>
+           
+            <h3 >5.	ОСТАВКИ:</h3>
+            <p>Материалы будут готовы транспортировке по согласованию сторон после внесения первоначального взноса перед сезоном посадки саженцев.</p>
+           
+            <h3 >6.	ГАРАНТИЯ:</h3>
+            <p>Гарантия на высокую урожайность зависит от погодных условий, своевременный уход, правильная обрезка саженцев, климат, почва, высота над уровнем моря и от сорта яблок. В случае неприживания более 10 % саженцев, расходы на замену покрываются субсидиарно. Все эти технические поддержки можно получить, заключив сервисный контракт на 2 года.</p>
+           
+            <h3 >7.	СРОК ДЕЙСТВИЯ:</h3>
+            <p>Предложение действительно в течение 30 дней.</p>
+           </div>
+          <div class="box_8">
+            <h3> <a name="stoimost"> 8. НЕ ВХОДИТ В СТОИМОСТЬ:</a></h3>
+            <div class="box_h3"><h3 >Обязанности ПОКУПАТЕЛЯ не входящие в стоимость контракта:</h3>
+            <ol>
+              <li>Подготовка и выравнивание площадки для посадки «саженцев» за месяц до посадки саженцев.</li>
+              <li>Предоставление достаточного количества воды</li>
+              <li>Предоставление достаточной рабочей силы для супервайзеров во время посадки саженцев не менее 10 человек;</li>
+              <li>Работы для приготовления ям (лунок) для саженцев, металлических конструкций и подземных труб капельного орошения;</li>
+              <li>Предоставление достаточной рабочей силы для супервайзеров во время монтажных работ не менее 10 человек;</li>
+              <li>Ограждение земельного участка;</li>
+              <li>Электричество во время монтажа капельного орошения;</li>
+              <li>Инструменты необходимые для монтажа, типа лестниц, леса, грузоподъемника или подъемного крана;</li>
+              <li>Охрана сданных материалов на площадке строительства</li>
+              <li>Предоставление заземления и электрощита с автоматом, предохранителями и достаточным электропитанием (напряжением 380 вольт) до места капельного орошения;</li>
+              <li>Работы по связыванию саженцев, сетки, а так же труб капельного орошения на гальванизированные канаты производится со стороны персонала Покупателя по инструкции супервайзера Продавца;</li>
+              <li>Строительство бетонного основания, стальной платформы и навеса для агрегатов капельного орошения в соответствии с проектной документацией и чертежами, предоставляемыми ПРОДАВЦОМ;</li>
+              <li>Земляные и бетонные работы для монтажа труб капельного орошения, гальванизированных столбов, а так же для посадки саженцев производится со стороны персонала Покупателя по инструкции супервайзера Продавца;</li>
+              <li>Предоставление удобрения необходимого для развития «саженцев»</li>
+              <li>Все данные по удобрениям назначаются агрономом ПРОДАВЦА, по мере необходимости, в указанное им время и дозами. ПОКУПАТЕЛЬ обязан соблюдать эти нормы агронома;</li>
+              <li>Со стороны Продавца предоставляется обучение по обрезке деревьев. Работы по обрезке саженцев осуществляются со стороны персонала Покупателя;</li>
+              <li>Получение пакета разрешительных документов от государственных органов;</li>
+              <li>Всё что не указанно в данном предложении.</li>
+            </ol>
+          </div>
+            
+        </div>
+       
+    </section>
+
+    <footer>
+          <div class="foo">
+              <div class="foo_phone">
+                <p><span class="phone_tel">Телефон:</span></p>
+                  <p class="phone fon">
+                  <a name="contact"></a> +998 90 271 71 11</p>
+                  <p class="phone">+998 93 720 51 55</p>
+                  <p class="date">Каждый день с 09:00 до 18:00, кроме воскресенья</p>
+              </div>
+              <div class="foo_email">
+                  <h4> <span>S</span>am<span>P</span>rom<span>X</span>olod</h4>
+                  <p><a name="email">E-mail <br> sampromholod@mail.ru</a></p>
+              </div>
+          </div>
+  </footer>
+    
+</body>
+</html>
